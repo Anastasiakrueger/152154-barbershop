@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>HTML Academy: Магазин</title>
+</head>
+<body>
+	<header class="basic-header">
+		<div class="container">
+			<nav class="top-menu">
+				<ul>
+					<li>
+						<a href="#">Главная</a>
+					</li>
+					<li>
+						<a href="#">Информация</a>
+					</li>
+					<li>
+						<a href="#">Новости</a>
+					</li>
+					<li>
+						<a href="#">Прайс-лист</a>
+					</li>
+					<li>
+						<a class="active" href="#">Магазин</a>
+					</li>
+					<li>
+						<a href="#">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="user-block">
+				<a href="#">Вход</a>
+			</div>
+		</div>
+	</header>
+	<main class="container">
+		<!-- Нужно ли обернуть заголовок и брэдкрамбс в отдельный див? -->
+		<h1 class="page-title">Средства для ухода</h1>
+		<ul class="breadcrumbs">
+			<li><a href="#"></a>Главная</li>
+			<li><a href="#"></a>Магазин</li>
+			<li><span>Средства для ухода</span></li>
+		</ul>
+		<aside class="filter">
+			<form class="form-filter" action="https://echo.htmlacademy.ru" method="post">
+				<div class="filter-title">Производители:</div>
+				<input class="filter-checkbox" type="checkbox" id="baxter-of-california" value="Baxter-of-California" name="firm[]" checked>
+				<label class="filter-label" for="baxter-of-california">Baxter of California</label>
+				<input class="filter-checkbox" type="checkbox" id="mr-natty" value="mr-natty" name="firm[]">
+				<label class="filter-label" for="mr-natty">Mr Natty</label>
+				<input class="filter-checkbox" type="checkbox" id="suavecito" value="suavecito" name="firm[]" checked>
+				<label class="filter-label" for="suavecito">Suavecito</label>
+				<input class="filter-checkbox" type="checkbox" id="malin-goetz" value="malin-goetz" name="firm[]">
+				<label class="filter-label" for="malin-goetz">Malin Goetz</label>
+				<input class="filter-checkbox" type="checkbox" id="murrays" value="murrays" name="firm[]">
+				<label class="filter-label" for="murrays">Murrays</label>
+				<input class="filter-checkbox" type="checkbox" id="american-crew" value="american-crew" name="firm[]" checked>
+				<label class="filter-label" for="american-crew">American Crew</label>
+				<div class="filter-title">Группы товаров:</div>
+
+				<input class="filter-radio" type="radio" id="materials" value="materials" name="product">
+				<label class="filter-radio-label" for="materials">Бритвенные принадлежности</label>
+				<input class="filter-radio" type="radio" id="resource" value="resource" name="product" checked>
+				<label class="filter-radio-label" for="resource">Средства для ухода</label>
+				<input class="filter-radio" type="radio" id="accessories" value="accessories" name="product">
+				<label class="filter-radio-label" for="accessories">Аксессуары</label>
+				<button class="btn filter-btn" type="submit">Показать</button>
+			</form>
+		</aside>
+		<div class="shop">
+			<article class="shop-product">
+				<img src="http://placehold.it/150x100" alt="Набор для путешествий">
+				<h1>Набор для путешествий</h1>
+				<p>«Baxter of California»</p>
+				<div class="price">2900 РУБ.</div>
+				<a class="btn buy" href="#">Купить</a>
+			</article>
+
+			<article class="shop-product">
+			<img src="http://placehold.it/150x100" alt="Набор для путешествий">
+				<h1>Увлажняющий кондиционер</h1>
+				<p>«Baxter of California»</p>
+				<div class="price">750 РУБ.</div>
+				<a class="btn buy" href="#">Купить</a>
+			</article>
+
+			<article class="shop-product">
+			<img src="http://placehold.it/150x100" alt="Набор для путешествий">
+				<h1>Гель для волос</h1>
+				<p>«SUAVECITO»</p>
+				<div class="price">290 РУБ.</div>
+				<a class="btn buy" href="#">Купить</a>
+			</article>
+
+			<article class="shop-product">
+			<img src="http://placehold.it/150x100" alt="Набор для путешествий">
+				<h1>Глина для укладки волос</h1>
+				<p>«AMERICAN CREW»</p>
+				<div class="price">500 РУБ.</div>
+				<a class="btn buy" href="#">Купить</a>
+			</article>
+
+			<article class="shop-product">
+			<img src="http://placehold.it/150x100" alt="Набор для путешествий">
+				<h1>Гель для волос</h1>
+				<p>«AMERICAN CREW»</p>
+				<div class="price">300 РУБ.</div>
+				<a class="btn buy" href="#">Купить</a>
+			</article>
+
+			<article class="shop-product">
+			<img src="http://placehold.it/150x100" alt="Набор для путешествий">
+				<h1>Набор для бритья</h1>
+				<p>«Baxter of California»</p>
+				<div class="price">3900 РУБ.</div>
+				<a class="btn buy" href="#">Купить</a>
+			</article>
+			<div class="pagenav">
+				<a class="btn pagenav-btn" href="#">1</a>
+				<span class="btn pagenav-active">2</span>
+				<a class="btn pagenav-btn" href="#">3</a>
+				<a class="btn pagenav-btn" href="#">4</a>
+			</div>
+		</div>
+	</main>
+	<footer class="basic-footer">
+		<div class="container">
+			<section class="address">
+				<p>Барбершоп "Бородинский"br
+					Адрес: г.Санкт-Петербург, ул.Б.Конюшенная,д.19/8<br>
+					<a href="#">Как нас найти</a><br>
+					Телефон: +7 (495) 666-02-66
+				</p>
+			</section>
+			<section class="social-network">
+				<p>Давайте дружить</p>
+				<a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+				<a href="#" class="social-btn social-btn-fb">Facebook</a>
+				<a href="#" class="social-btn social-btn-inst">Instagram</a>
+			</section>
+			<section class="footer-copyright">
+				<p>Разработано</p>
+				<a target="_blank" href="https://htmlacademy.ru">HTML Academy</a>
+			</section>
+		</div>
+	</footer>
+</body>
+</html>
