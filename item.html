@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>HTML Academy: Item</title>
 </head>
 <body>
 	<header class="basic-header">
 		<div class="container">
+			<div class="inner-logo">
+				<a href="#"><img src="#" alt="Barbershop" width="111" height="24"></a>
+			</div>
 			<nav class="top-menu">
 				<ul>
-					<li>
-						<a href="#">Главная</a>
-					</li>
 					<li>
 						<a href="#">Информация</a>
 					</li>
@@ -30,13 +30,13 @@
 				</ul>
 			</nav>
 			<div class="user-block">
-				<a href="#">Вход</a>
+				<a class="user-block__link" href="#">Вход</a>
 			</div>
 		</div>
 	</header>
 	<main class="container">
 		<h1>Набор для путешествий "Baxter of california"</h1>
-		<ul class="bradcramps">
+		<ul class="breadcrambs">
 			<li>
 				<a href="#">Главная</a>
 			</li>
@@ -47,24 +47,32 @@
 				<a href="#">Средства для ухода</a>
 			</li>
 			<li>
-				<span>Набор для путешествий "Baxter of california"</span>
+				Набор для путешествий "Baxter of california"
 			</li>
 		</ul>
 		<div class="pictures">
-			<img class="big-picture" src="http://placehold.it/150x100" alt="pic">
-			<img class="little-pictures" src="http://placehold.it/150x100" alt="pic">
-			<img class="little-pictures"  src="http://placehold.it/150x100" alt="pic">
-			<img class="little-pictures" src="http://placehold.it/150x100" alt="pic">
+			<figure class="big-picture">
+				<img src="http://placehold.it/150x100" alt="pic">
+			</figure>
+			<div class="pictures-preview">
+				<a href="#"><img src="http://placehold.it/150x100" alt="pic"></a>
+				<a href="#"><img src="http://placehold.it/150x100" alt="pic"></a>
+				<a href="#"><img src="http://placehold.it/150x100" alt="pic"></a>
+			</div>
 		</div>
 		<div class="about">
-			<span class="title">Есть в наличие</span>
-			<span class="article">Актикул: dexter-ae</span>
+			<div class="about-info">
+				<div class="title">Есть в наличие</div>
+				<div class="article">Артикул: dexter-ae</div>
+			</div>
 
-			<section>
+			<p>
 				Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
-			</section>
-			<div class="price">2900 руб</div>
-			<a href="#" class="btn buy">Купить</a>
+			</p>
+			<div class="product-price">
+				<div class="price">2900 руб</div>
+				<a href="#" class="btn buy">Купить</a>
+			</div>
 			<h2>В набор входят:</h2>
 			<ul class="about-list">
 				<li>Средство для умывания (50)</li>
