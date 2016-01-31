@@ -3,12 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>HTML Academy: Магазин</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="inner-page">
 	<header class="basic-header">
-		<div class="container">
+		<div class="container clearfix">
 			<div class="inner-logo">
-				<a href="#"><img src="#" alt="Barbershop" width="111" height="24"></a>
+				<a href="#"><img src="img/borodinski-logo2.svg" width="111" height="24" alt="Barbershop"></a>
 			</div>
 			<nav class="top-menu">
 				<ul>
@@ -37,11 +38,11 @@
 	<main class="container">
 		<h1 class="page-title">Средства для ухода</h1>
 		<ul class="breadcrumbs">
-			<li><a href="#"></a>Главная</li>
-			<li><a href="#"></a>Магазин</li>
+			<li><a href="#">Главная</a></li>
+			<li><a href="#">Магазин</a></li>
 			<li><span>Средства для ухода</span></li>
 		</ul>
-		<div class="shop">
+		<div class="shop clearfix">
 			<aside class="filter">
 				<form action="https://echo.htmlacademy.ru" method="post">
 					<div class="filter-title">Производители:</div>
@@ -68,7 +69,7 @@
 					<button class="btn filter-btn" type="submit">Показать</button>
 				</form>
 			</aside>
-			<div class="shop-items">
+			<div class="shop-items ">
 				<article class="shop-product">
 					<a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="Набор для путешествий"></a>
 					<div class="item-description">
@@ -132,7 +133,7 @@
 				<article class="shop-product">
 					<a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="Набор для бритья"></a>
 					<div class="item-description">
-						<h1>Набор для бритья</h1>
+						<a href="#"><h1>Набор для бритья</h1></a>
 						<p>«Baxter of California»</p>
 						<div class="product-price">
 							<div class="price">3900 РУБ.</div>
@@ -140,6 +141,7 @@
 						</div>
 					</div>
 				</article>
+				<div class="clearfix">	</div>
 				<ul class="pagenav">
 					<li><a class="btn pagenav-btn" href="#">1</a></li>
 					<li>2</li>
@@ -150,13 +152,12 @@
 		</div>
 	</main>
 	<footer class="basic-footer">
-		<div class="container">
+		<div class="container clearfix">
 			<section class="address">
-				<p>Барбершоп "Бородинский"br
+				Барбершоп "Бородинский" 	<br>	
 					Адрес: г.Санкт-Петербург, ул.Б.Конюшенная,д.19/8<br>
 					<a href="#">Как нас найти</a><br>
-					Телефон: +7 (495) 666-02-66
-				</p>
+					Телефон: +7 (495) 666-02-66				
 			</section>
 			<section class="social-network">
 				<p>Давайте дружить</p>
