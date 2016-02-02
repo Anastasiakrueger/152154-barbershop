@@ -563,7 +563,8 @@
  }
 
  .shop-items {
- 	float: left;
+ 	float: right;
+ 	font-size: 0;
  	width: 700px;
  }
 
@@ -573,13 +574,8 @@
 
  .shop-product {
  	width: 220px;
- 	margin-right: 20px;
- 	float:left;
+ 	display: inline-block;
  	margin-bottom: 45px;
- }
-
- .shop-product:nth-child(3n) {
- 	margin-right: 0;
  }
 
  .pagenav li {
@@ -588,6 +584,11 @@
 
  .inner-page .basic-footer {
  	margin-top: 43px;
+
+ }
+
+ figure {
+ 	margin: 0;
 
  }
 
@@ -611,7 +612,7 @@
  }
 
  .about {
- 	float: left;
+ 	float: right;
  	width: 400px;
  	display: inline-block;
  	margin-bottom: 50px;
