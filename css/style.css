@@ -578,6 +578,10 @@
  	margin-bottom: 45px;
  }
 
+ .pagenav {
+ 	font-size: 19px;
+ }
+
  .pagenav li {
  	display: inline-block;	
  }
