@@ -4,13 +4,16 @@
 	<meta charset="UTF-8">
 	<title>HTML Academy: Магазин</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 </head>
 <body class="inner-page">
 	<header class="basic-header">
 		<div class="container clearfix">
+
 			<div class="inner-logo">
 				<a href="#"><img src="img/borodinski-logo2.svg" width="111" height="24" alt="Barbershop"></a>
 			</div>
+
 			<nav class="top-menu">
 				<ul>
 					<li>
@@ -23,13 +26,14 @@
 						<a href="#">Прайс-лист</a>
 					</li>
 					<li>
-						<a class="active" href="#">Магазин</a>
+						<a href="#">Магазин</a>
 					</li>
 					<li>
 						<a href="#">Контакты</a>
 					</li>
 				</ul>
 			</nav>
+
 			<div class="user-block">
 				<a class="user-block__link" href="#">Вход</a>
 			</div>
@@ -71,7 +75,7 @@
 			</aside>
 			<div class="shop-items ">
 				<article class="shop-product">
-					<a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="Набор для путешествий"></a>
+					<a href="#"><img src="img/travelkit-shop.png" width="220" height="165" alt="Набор для путешествий"></a>
 					<div class="item-description">
 						<a href="#"><h1>Набор для путешествий</h1></a>
 						<p>«Baxter of California»</p>
@@ -83,7 +87,7 @@
 				</article>
 
 				<article class="shop-product">
-					<a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="Увлажняющий кондиционер"></a>
+					<a href="#"><img src="img/conditioner.png" width="220" height="165" alt="Увлажняющий кондиционер"></a>
 					<div class="item-description">
 						<a href="#"><h1>Увлажняющий кондиционер</h1></a>
 						<p>«Baxter of California»</p>
@@ -95,7 +99,7 @@
 				</article>
 
 				<article class="shop-product">
-					<a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="Гель для волос"></a>
+					<a href="#"><img src="img/gel-2.png" width="220" height="165" alt="Гель для волос"></a>
 					<div class="item-description">
 						<a href="#"><h1>Гель для волос</h1></a>
 						<p>«SUAVECITO»</p>
@@ -107,7 +111,7 @@
 				</article>
 
 				<article class="shop-product">
-					<a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="Глина для укладки волос"></a>
+					<a href="#"><img src="img/clay.png" width="220" height="165" alt="Глина для укладки волос"></a>
 					<div class="item-description">
 						<a href="#"><h1>Глина для укладки волос</h1></a>
 						<p>«AMERICAN CREW»</p>
@@ -119,7 +123,7 @@
 				</article>
 
 				<article class="shop-product">
-					<a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="Гель для волос"></a>
+					<a href="#"><img src="img/gel-1.png" width="220" height="165" alt="Гель для волос"></a>
 					<div class="item-description">
 						<a href="#"><h1>Гель для волос</h1></a>
 						<p>«AMERICAN CREW»</p>
@@ -131,7 +135,7 @@
 				</article>
 
 				<article class="shop-product">
-					<a href="#"><img src="http://placehold.it/150x100" width="150" height="100" alt="Набор для бритья"></a>
+					<a href="#"><img src="img/shaving.png" width="220" height="165" alt="Набор для бритья"></a>
 					<div class="item-description">
 						<a href="#"><h1>Набор для бритья</h1></a>
 						<p>«Baxter of California»</p>
@@ -141,23 +145,28 @@
 						</div>
 					</div>
 				</article>
-				<div class="clearfix"></div>
-				<ul class="pagenav">
-					<li><a class="btn pagenav-btn" href="#">1</a></li>
-					<li>2</li>
-					<li><a class="btn pagenav-btn" href="#">3</a></li>
-					<li><a class="btn pagenav-btn" href="#">4</a></li>
-				</ul>
+				
 			</div>
 		</div>
+		<div class="clearfix"></div>
+				<ul class="pagenav">
+					<li><a class="pagenav-btn" href="#">1</a></li>
+					<li class="page-now">2</li>
+					<li><a class="pagenav-btn" href="#">3</a></li>
+					<li><a class="pagenav-btn" href="#">4</a></li>
+				</ul>
 	</main>
-	<footer class="basic-footer">
+	<footer class="basic-footer inner-footer">
 		<div class="container clearfix">
+			<section class="footer-copyright">
+				<p>Разработано</p>
+				<a target="_blank" href="https://htmlacademy.ru">HTML Academy</a>
+			</section>
 			<section class="address">
-				Барбершоп "Бородинский" 	<br>	
-					Адрес: г.Санкт-Петербург, ул.Б.Конюшенная,д.19/8<br>
-					<a href="#">Как нас найти</a><br>
-					Телефон: +7 (495) 666-02-66				
+				Барбершоп "Бородинский" <br>
+				Адрес: г.Санкт-Петербург, ул.Б.Конюшенная,д.19/8<br>
+				<a href="#">Как нас найти</a><br>
+				Телефон: +7 (495) 666-02-66				
 			</section>
 			<section class="social-network">
 				<p>Давайте дружить</p>
@@ -165,10 +174,7 @@
 				<a href="#" class="social-btn social-btn-fb">Facebook</a>
 				<a href="#" class="social-btn social-btn-inst">Instagram</a>
 			</section>
-			<section class="footer-copyright">
-				<p>Разработано</p>
-				<a target="_blank" href="https://htmlacademy.ru">HTML Academy</a>
-			</section>
+
 		</div>
 	</footer>
 </body>
